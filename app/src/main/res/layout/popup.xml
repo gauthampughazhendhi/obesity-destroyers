@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mm">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp" android:layout_height="450dp"
+    android:orientation="vertical"
+android:layout_gravity="center"
+
+    android:id="@+id/popu"
+    android:background="#ffffff"
+
+    >
+    <TextView
+
+        android:layout_marginTop="40dp"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:id="@+id/pop"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:paddingLeft="5dp"
+
+        android:textColor="#010101"
+
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+
+
+        android:src="@mipmap/pop"
+        android:paddingTop="80dp"/>
+    <Button
+        android:textColor="#ff490c"
+        android:background="#9ca2a2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:textSize="20dp"
+        android:id="@+id/pou"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        style="@style/AppTheme"
+        android:layout_marginBottom="10dp"
+        android:text="Exit"/>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,328 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/mm"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Diet for obese people"
+        android:gravity="center"
+        android:textColor="#010101"
+
+        android:textSize="30dp"
+        android:id="@+id/tvhead"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="@android:color/background_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvhead"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textStyle="bold"
+                android:text="1.Green Tea"
+                android:id="@+id/btu1"
+                android:textColor="#ffffff"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="2.Apple Cider Vinegar And Lime Juice"
+                android:id="@+id/btu2"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+               android:layout_below="@+id/btu1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="3. Start Day With Honey"
+                android:id="@+id/btu3"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="4. Drink Hot Water"
+                android:id="@+id/btu4"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="5. Mint Leaves"
+                android:id="@+id/btu5"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="6. Fennel Seeds"
+                android:id="@+id/btu6"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textStyle="bold"
+                android:text="7. Apple Cider Vinegar"
+                android:id="@+id/btu7"
+
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="8. Stick To Home Made Foods"
+                android:textStyle="bold"
+                android:id="@+id/btu8"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="9. Honey With Pepper"
+                android:id="@+id/btu9"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="10. Adding Spices To Your Tea"
+                android:id="@+id/btu10"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="11. Curry Leaves"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:id="@+id/btu11"
+                android:layout_below="@+id/btu10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="12. Vegetables And Fruits"
+                android:id="@+id/btu12"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="13. Jujube In Water"
+                android:id="@+id/btu13"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="14. Eating Finger Millets"
+                android:id="@+id/btu14"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="15. Physical Exercise"
+                android:id="@+id/btu15"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/btu14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btu14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

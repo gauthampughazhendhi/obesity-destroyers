@@ -1,0 +1,339 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mm">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@mipmap/mm">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Theory Class"
+        android:textColor="#010101"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/tvwel"
+        android:layout_marginBottom="30dp"/>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_below="@+id/tvwel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollView"></ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="#ffffff"
+            android:text="Introduction class"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/b0"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="What is Obesity?"
+            android:id="@+id/b1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="56dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="What is Body Mass Index(BMI)?"
+            android:id="@+id/b2"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_below="@+id/b1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Why do people become obese?"
+            android:id="@+id/b3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="How to overcome obesity?"
+            android:id="@+id/b4"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Other dietary recommendations"
+            android:id="@+id/b5"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Foods to AVOID when treating obesity"
+            android:id="@+id/b6"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Efforts to be taken"
+            android:id="@+id/b7"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Other Tips for Treating Obesity"
+            android:id="@+id/b8"
+            android:layout_below="@+id/b7"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Therapies to be followed"
+            android:id="@+id/b9"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/b8"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b0"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/b8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#000000"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Diet content for obese people"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:id="@+id/button10"
+        android:layout_below="@+id/b9"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Diet"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button10"
+        android:background="@android:color/transparent"
+        android:id="@+id/button11"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="More Classes are comming soon"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button11"
+       android:id="@+id/button12"
+        android:background="@android:color/transparent"/>
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#000000"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

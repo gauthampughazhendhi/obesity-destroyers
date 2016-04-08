@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/mm" >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingTop="20sp"
+        android:textColor="#ffffff"
+        android:text="Your current status"
+        android:textSize="30sp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingTop="40sp"
+        android:text="Exercise video"
+        android:textSize="20sp" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:weightSum="100"
+    android:paddingLeft="20sp" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:paddingTop="30sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="90" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_weight="10"
+          android:paddingLeft="30sp"
+        android:paddingTop="30sp"
+        android:text="0%" />
+</LinearLayout>
+
+<TextView
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+    android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingTop="80sp"
+        android:text="Push ups/Per day"
+        android:textSize="20sp" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:paddingLeft="20sp"
+    android:layout_marginTop="50dp">
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:paddingTop="30sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_weight="10"
+          android:paddingLeft="30sp"
+        android:paddingTop="30sp"
+
+        android:text="0%" />
+</LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:paddingLeft="20sp" >
+
+
+
+   >
+</LinearLayout>
+</LinearLayout>

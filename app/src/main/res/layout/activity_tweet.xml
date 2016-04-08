@@ -1,0 +1,31 @@
+<android.support.v4.widget.SwipeRefreshLayout
+
+    android:id="@+id/refresher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/kk"
+            >
+
+            <TextView android:id="@id/android:empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Loading please wait....\n\n                Swipe to refresh
+                  "/>
+
+            <ListView
+                android:id="@id/android:list"
+                android:layout_width="match_parent"
+                android:divider="#e1e8ed"
+                android:dividerHeight="1dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="false"
+                />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="corp.s.a.i.obesitydestroyers" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".bmicalc"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".Theory"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".Theorylist"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".Dietlist"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".Jmeter"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".Untitled"
+            android:label="@string/title_activity_bmicalc" >
+        </activity>
+        <activity
+            android:name=".display"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name=".obese"
+            android:label="@string/title_activity_obese" >
+        </activity>
+
+        <activity
+            android:name=".tweet"
+            android:label="@string/title_activity_tweet" >
+        </activity>
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Task"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Prox"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".videos"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Untitled1"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".error"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".show"
+            android:label="@string/title_activity_menu" >
+        </activity>
+
+
+
+
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="00c1e71b8fca0fa48e833143ebd06d9f639d1618" />
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+</manifest>

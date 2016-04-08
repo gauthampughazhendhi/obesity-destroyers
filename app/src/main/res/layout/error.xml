@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/mm">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n\nOops!!!\n\n\nGps signals are not good try again by exiting the app and using it in a open sky"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textSize="32dp"
+        android:id="@+id/textView3" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Exit"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:id="@+id/button1"
+        android:textAllCaps="false"
+        android:background="#9ca2a2"
+        android:textColor="#ff490c"
+        android:layout_marginTop="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

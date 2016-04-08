@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Obesity Destroyers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gg">Welcome to Obesity Destroyers.....</string>
+    <string name="dd">Lets lead a   healthy life....</string>
+    <string name="g">Lets move</string>
+    <string name="title_activity_bmicalc">Bmicalc</string>
+    <string name="g2">   BMI Calculator</string>
+    <string name="font">assets/helvetica1.ttf</string>
+
+    <string name="g3">Enter your height :</string>
+    <string name="g9">Follow us</string>
+<string name="g10">Enter your name: </string>
+    <string name="g11">Menu:</string>
+    <string name="g12">Tools: </string>
+    <string name="g13">About Obesity </string>
+    <string name="g14">Exercise Videos </string>
+    <string name="g15">Push up Counter</string>
+    <string name="g16">Task Rater</string>
+    <string name="g17">Theory Class</string>
+    <string name="g18">Practical Class</string>
+    <string name="g19">Tweets from doctor</string>
+    <string name="g6">In kg </string>
+    <string name="g5">Feet</string>
+
+    <string name="g4">Enter your weight :</string>
+
+    <string name="g7">Submit </string>
+    <string name="title_activity_display">Display</string>
+    <string name="title_activity_obese">Obese</string>
+    <string name="g8">You are obese</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_tweet">tweet</string>
+
+
+</resources>

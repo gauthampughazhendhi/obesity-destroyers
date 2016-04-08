@@ -1,0 +1,222 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mm">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="corp.s.a.i.obesitydestroyers.menu"
+    android:background="@mipmap/mm"
+    android:id="@+id/gg"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/g17"
+        android:textSize="32dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:layout_gravity="center"
+        android:textColor="#010101"
+        android:id="@+id/textView10"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="40dp"
+        android:text="@string/g13"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:id="@+id/button4"
+        android:background="#9ca2a2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView10"
+        style="@style/AppTheme"
+        android:textColor="#ff490c"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/g19"
+        android:textAllCaps="false"
+        android:background="#9ca2a2"
+        android:textColor="#ff490c"
+        android:layout_marginLeft="80dp"
+
+        android:onClick="tweet"
+        android:layout_below="@+id/button4"
+
+android:layout_gravity="right"
+        android:id="@+id/button9"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:src="@mipmap/kk"
+        android:id="@+id/imageView"
+
+        android:layout_above="@+id/textView9"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignStart="@+id/info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/g18"
+        android:textSize="32dp"
+        android:layout_marginTop="20dp"
+android:layout_gravity="center"
+        android:layout_below="@+id/button9"
+
+
+        android:gravity="center" android:textStyle="normal"
+        android:textColor="#010101"
+        android:id="@+id/textView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/info"
+        android:layout_toRightOf="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+
+
+        android:text="@string/g14"
+        android:id="@+id/button5"
+        android:textSize="25dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/textView9"
+
+        android:background="#9ca2a2"
+        style="@style/AlertDialog.AppCompat.Light"
+
+        android:textColor="#ff490c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/g12"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:layout_below="@+id/button5"
+
+        android:textStyle="bold"
+        android:id="@+id/textView8"
+
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="@string/g15"
+        android:id="@+id/button6"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+
+        android:textSize="20dp"
+        android:layout_below="@+id/textView8"
+        android:textStyle="normal"
+
+        android:background="#9ca2a2"
+        style="@style/AppTheme"
+
+
+        android:textColor="#ff490c"
+       />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:text="@string/g16"
+    android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button6"
+    android:textStyle="normal"
+    android:id="@+id/button7"
+    android:textAllCaps="false"
+    android:background="#9ca2a2"
+    android:textColor="#ff490c"
+
+/>
+
+
+
+
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="33dp"
+        android:text="Jog-o-meter Instructions"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        android:id="@+id/ins"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="74dp"
+android:layout_gravity="right"
+        android:background="#9ca2a2"
+        android:textColor="#ff490c"
+        android:layout_below="@+id/button7"
+        android:gravity="center"
+
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Jog-o-meter"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:id="@+id/button8"
+        android:textAllCaps="false"
+        android:background="#9ca2a2"
+        android:textColor="#ff490c"
+        android:layout_marginTop="20dp"
+android:layout_below="@+id/ins" />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-40dp"
+    android:src="@mipmap/info"
+    android:id="@+id/info"
+        android:layout_alignLeft="@+id/ins"
+
+        android:layout_above="@+id/button8"/>
+
+</RelativeLayout>
+</ScrollView>

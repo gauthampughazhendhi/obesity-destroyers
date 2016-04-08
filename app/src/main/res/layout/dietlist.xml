@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mm">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Daily Diet"
+        android:id="@+id/tvdd"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@string/font"
+        android:textSize="42dp"
+        android:layout_marginTop="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Day 1"
+        android:id="@+id/tvdietday"
+        android:layout_below="@+id/tvdd"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tvdietday"
+        android:id="@+id/scrollView">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10sp">
+            <TextView
+               android:fontFamily="@string/font"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:text="Morning Beverage"
+                android:padding="10sp"
+                android:textSize="25sp"
+                android:id="@+id/tvdiet1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#############"
+                android:padding="10sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/tvdiet1"
+                android:id="@+id/tvdietmrngbev"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Break fast"
+                android:fontFamily="@string/font"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/tvdietmrngbev"
+                android:id="@+id/tvdiet2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="###########"
+                android:textSize="20sp" android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:padding="10sp"
+                android:layout_below="@+id/tvdiet2"
+                android:id="@+id/tvdietbf"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch"
+                android:fontFamily="@string/font"
+                android:textSize="25sp"
+                android:padding="10sp"
+                 android:textColor="#ffffff"
+                android:gravity="center"
+            android:layout_marginLeft="5dp"
+                android:layout_below="@+id/tvdietbf"
+                android:id="@+id/tvdiet3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#########"
+                android:padding="10sp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/tvdiet3"
+                android:id="@+id/tvdietlun"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evening Beverage"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@+id/tvdietlun"
+                android:id="@+id/tvdiet4"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="############"
+                android:padding="10sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_below="@+id/tvdiet4"
+                android:id="@+id/tvdietevebev"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evening intake"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@+id/tvdietevebev"
+                android:id="@+id/tvdiet5"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="###########"
+                android:padding="10sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_below="@+id/tvdiet5"
+                android:id="@+id/tvdietetake"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_below="@+id/tvdietetake"
+                android:id="@+id/tvdiet6"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="###########"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:padding="10sp"
+                android:layout_below="@+id/tvdiet6"
+                android:id="@+id/tvdietdin"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:src="@mipmap/nxt"
+
+
+        android:id="@+id/btdietprev"
+        android:layout_above="@+id/scrollView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/prevv"
+        android:id="@+id/btdietnext"
+        android:layout_above="@+id/scrollView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent" />
+</RelativeLayout>
