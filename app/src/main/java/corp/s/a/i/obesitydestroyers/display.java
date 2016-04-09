@@ -70,7 +70,10 @@ public class display extends bmicalc {
             }
         } else {
 
-
+            if (g1 == null ){
+                g1 = "0";
+                k = "0";
+            }
             show.setText(" \n \n\n You have run " + g1 + " Km. \n \n\n\n \n You have burnt " + k + " calories. ");
 
 

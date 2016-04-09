@@ -46,7 +46,7 @@ public class Theorylist extends Activity  {
 
             @Override
             public void onClick(View view) {
-                Intent i=new Intent (Theorylist.this,Untitled.class);
+                Intent i=new Intent (Theorylist.this,recipemenu.class);
                 startActivity(i);
             }
         });

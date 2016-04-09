@@ -28,7 +28,7 @@ public class Jmeter extends Activity implements LocationListener {
     
     TextView t,dc,cb,cbc;
     Double lat=0.0,lon=0.0,lon1=0.0,lat1=0.0,l=0.0,w,c=0.0;
-    int f=0;
+    int f=0, gps = 1 ,c1 = 0;
     Button b;
     String g,k;
     public static String file="shareddata";
@@ -107,7 +107,7 @@ b.setOnClickListener(new View.OnClickListener() {
 
           dc.setText("You have run "+g+" Km. \n \n\n\n \n You have burnt "+k+" calories." );
           */
-        } else {
+        }else if(gps == 1){
             lat1 = lat;
             lon1 = lon;
             t.setVisibility(View.VISIBLE);
@@ -116,6 +116,8 @@ b.setOnClickListener(new View.OnClickListener() {
             cbc.setVisibility(View.VISIBLE);
             b.setText("Stop");
             f = 1;
+        }else {
+            Toast.makeText(getBaseContext(),"Please turn on your GPS",Toast.LENGTH_LONG).show();
         }
 
     }
@@ -158,16 +160,32 @@ b.setOnClickListener(new View.OnClickListener() {
     a= distance(lat, lon, lat1, lon1, "M");
 
             l+=(a/100);
-    DecimalFormat df = new DecimalFormat("#.###");
+    DecimalFormat df = new DecimalFormat("#.##");
     Double i = l * 0.621371;
-    g = df.format(i);
-    t.setText(g + "  Km");
-    lat1 = lat;
-    lon1 = lon;
-    c += w * 0.75 * l;
-    TextView t1 = (TextView) findViewById(R.id.tv3);
-    k = df.format(c);
-    t1.setText(k);
+            TextView t1 = (TextView) findViewById(R.id.tv3);
+            try{
+
+            lat1 = lat;
+            lon1 = lon;
+            c += w * 0.75 * l;
+
+            k = df.format(c);
+                if (i.isNaN()){
+                    i = 0.0;
+                    k = "0";
+                }
+                g = df.format(i);
+                t.setText(g + "  Km");
+                t1.setText(k);
+
+                Integer.parseInt(g);
+            } catch (Exception e) {
+                t.setText("");
+                t1.setText("");
+                if ( c1 == 0)
+                Toast.makeText(getBaseContext(),"Waiting for signal",Toast.LENGTH_SHORT).show();
+                c1 = 1;
+            }
 }
 
 }
@@ -200,16 +218,16 @@ b.setOnClickListener(new View.OnClickListener() {
     public void onProviderDisabled(String provider) {
 
         /******** Called when User off Gps *********/
-
-        Toast.makeText(getBaseContext(), "Gps turned off ", Toast.LENGTH_LONG).show();
+        gps = 0;
+        //Toast.makeText(getBaseContext(), "Gps turned off ", Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void onProviderEnabled(String provider) {
 
         /******** Called when User on Gps  *********/
-
-        Toast.makeText(getBaseContext(), "Gps turned on ", Toast.LENGTH_LONG).show();
+        gps = 1;
+        //Toast.makeText(getBaseContext(), "Gps turned on ", Toast.LENGTH_LONG).show();
     }
 
     @Override

@@ -9,7 +9,7 @@ import android.widget.Button;
 /**
  * Created by shiva on 23/9/15.
  */
-public class Untitled extends Activity {
+public class recipemenu extends Activity {
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class Untitled extends Activity {
         b13=(Button)findViewById(R.id.btu13);
         b14=(Button)findViewById(R.id.btu14);
         b15=(Button)findViewById(R.id.btu15);
-        final Intent I=new Intent(this,Untitled1.class);
+        final Intent I=new Intent(this,recipedesc.class);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,7 +10,7 @@ import org.w3c.dom.Text;
 /**
  * Created by shiva on 23/9/15.
  */
-public class Untitled1 extends Activity {
+public class recipedesc extends Activity {
     String b[]={"\n\nGreen tea has been found to be very effective in weight loss and will help in treating weight loss without any dieting or weight loss pills." +
             "\n\n\nUse the best quality green tea leaves in boiling water and let it simmer for a few minutes.\n" +
             "\n\nDrink this green tea two to three times a day to see visible results in days.\n\n\n",

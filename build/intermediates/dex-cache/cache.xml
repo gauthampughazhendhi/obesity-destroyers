@@ -2,102 +2,102 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\internal_impl-22.2.1-ac51cbb8734f3841b71678ef0d52acdca397a3a3.jar" />
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-45d6373af32975a15328760550327aaacc3d31f5.jar" />
     </item>
     <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\libs\YouTubeAndroidPlayerApi.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\YouTubeAndroidPlayerApi-1e716c6c5297f8a8ab0fbb695cc8cd248d2e8e6d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\picasso-2.5.2-31157902c5b26048b4da7f49650ec540c8a5ad9f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.7.2\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="969083e0647ceea193d0750885fdaf4210d585f1">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-665d8b8d65c73ae90c8e0834e16f93b26455fd52.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-ui\1.4.1\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5486ee25d2c2f2d4c457f4a9152412225bc8c56d">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-692c3b2d9b035863da6b6c5d8a790df5220eafcc.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\gson-2.3-7a9eb469ab6752bd6e72020cbc6e3b928f449583.jar" />
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/gson-2.3-827b03ac466eea69671b5d185ef3cd2b47aa3b11.jar" />
     </item>
     <item
-        jar="C:\Users\Gautham Leo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.8.0\a517f29ed06be2b2879524fcd94b6e9b36e2e0b5\retrofit-1.8.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\retrofit-1.8.0-f2bec8971a233f0d5474bf5d3a764c947d79e7ff.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\support-annotations-22.2.1-415b19030d425f19cb260eb4f99fa93bbffaaa9e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-e05d8824d8c630f4ace5184d2430741c92de8a03.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.5\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="6e65060ef2ec6ec98365250d2119d7968626fd3f">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-75079522945e1bba4e477592c1be9c865680b80f.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter\1.7.2\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7984b796f1ac4e85dee1191dec3ef5d1e494d25d">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-f08d19e50056028cc1621da182df4116c03a1ad9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-ca72eb9ef7b2aa16fca66dba60257a4c97a413e9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.4.3\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8dcd8a0985f37e249879253bd67644ec2d79ee87">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-66964e11603e712b2034b1351664732f192ed970.jar" />
-    </item>
-    <item
-        jar="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.8.0\jars\classes.jar"
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/0.8.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="157015930713d0411b69a76606f306c9a2c11af3">
-        <dex dex="C:\Users\Gautham Leo\AndroidStudioProjects\ObesityDestroyers2\app\build\intermediates\pre-dexed\release\classes-a45fd9b2ea6a89118af88d3ca230bf2be06b8182.jar" />
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-b16655bc600e674ab41d10ad060fe13f53f9be56.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-32242d48183e221a1759554f2967d45ae4ca7842.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.7.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="969083e0647ceea193d0750885fdaf4210d585f1">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-ce31f341978fa574bc12521f3200820d49a6883a.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8dcd8a0985f37e249879253bd67644ec2d79ee87">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-bd5c43cc69b8097dd4233bfbde93eaefd4053855.jar" />
+    </item>
+    <item
+        jar="/root/Documents/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-a461a51a00cce14b215b775c4275d1e9445f6d26.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/YouTubeAndroidPlayerApi-678bc76044c9dbf72b1089b919773241aa612cb3.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.8.0/a517f29ed06be2b2879524fcd94b6e9b36e2e0b5/retrofit-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/retrofit-1.8.0-f2c3e20619585388417f83d6e1c9c29b9af888f7.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-c689b2c00cb85f0b1519d17a56bd0bb819204f0c.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter/1.7.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7984b796f1ac4e85dee1191dec3ef5d1e494d25d">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-60118233e99785b725941563d96840f7766628a4.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/picasso-2.5.2-f07471cc8daabba9b33b6c2492a169834e3c6749.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.4.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5486ee25d2c2f2d4c457f4a9152412225bc8c56d">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-8547f0f4c94848d979232101036ca21b5a8ecf39.jar" />
+    </item>
+    <item
+        jar="/root/gitdir/Obesity-destroyers/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.5/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e65060ef2ec6ec98365250d2119d7968626fd3f">
+        <dex dex="/root/gitdir/Obesity-destroyers/app/build/intermediates/pre-dexed/release/classes-6571da600b588ed230aa849cbb4602d8f13b8537.jar" />
     </item>
 
 </items>
